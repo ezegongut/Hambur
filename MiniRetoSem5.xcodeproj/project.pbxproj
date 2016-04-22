@@ -15,6 +15,7 @@
 		97CBF2FF1CC9A8B600D87771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97CBF2FD1CC9A8B600D87771 /* LaunchScreen.storyboard */; };
 		97CBF30A1CC9A8B600D87771 /* MiniRetoSem5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CBF3091CC9A8B600D87771 /* MiniRetoSem5Tests.swift */; };
 		97CBF3151CC9A8B600D87771 /* MiniRetoSem5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CBF3141CC9A8B600D87771 /* MiniRetoSem5UITests.swift */; };
+		97CBF3241CC9AC7100D87771 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CBF3231CC9AC7100D87771 /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		97CBF3101CC9A8B600D87771 /* MiniRetoSem5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniRetoSem5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97CBF3141CC9A8B600D87771 /* MiniRetoSem5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniRetoSem5UITests.swift; sourceTree = "<group>"; };
 		97CBF3161CC9A8B600D87771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97CBF3231CC9AC7100D87771 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		97CBF3261CC9B27500D87771 /* MiniS5.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MiniS5.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,7 @@
 				97CBF2FD1CC9A8B600D87771 /* LaunchScreen.storyboard */,
 				97CBF3001CC9A8B600D87771 /* Info.plist */,
 				97CBF2F81CC9A8B600D87771 /* MiniRetoSem5.xcdatamodeld */,
+				97CBF3221CC9AC3E00D87771 /* Archivos Swift y Playground */,
 			);
 			path = MiniRetoSem5;
 			sourceTree = "<group>";
@@ -126,6 +130,15 @@
 				97CBF3161CC9A8B600D87771 /* Info.plist */,
 			);
 			path = MiniRetoSem5UITests;
+			sourceTree = "<group>";
+		};
+		97CBF3221CC9AC3E00D87771 /* Archivos Swift y Playground */ = {
+			isa = PBXGroup;
+			children = (
+				97CBF3231CC9AC7100D87771 /* Datos.swift */,
+				97CBF3261CC9B27500D87771 /* MiniS5.playground */,
+			);
+			name = "Archivos Swift y Playground";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97CBF2F41CC9A8B600D87771 /* ViewController.swift in Sources */,
+				97CBF3241CC9AC7100D87771 /* Datos.swift in Sources */,
 				97CBF2F21CC9A8B600D87771 /* AppDelegate.swift in Sources */,
 				97CBF2FA1CC9A8B600D87771 /* MiniRetoSem5.xcdatamodeld in Sources */,
 			);
