@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97CBF2F21CC9A8B600D87771 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CBF2F11CC9A8B600D87771 /* AppDelegate.swift */; };
+		97CBF2F41CC9A8B600D87771 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CBF2F31CC9A8B600D87771 /* ViewController.swift */; };
+		97CBF2F71CC9A8B600D87771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97CBF2F51CC9A8B600D87771 /* Main.storyboard */; };
+		97CBF2FA1CC9A8B600D87771 /* MiniRetoSem5.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97CBF2F81CC9A8B600D87771 /* MiniRetoSem5.xcdatamodeld */; };
+		97CBF2FC1CC9A8B600D87771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97CBF2FB1CC9A8B600D87771 /* Assets.xcassets */; };
+		97CBF2FF1CC9A8B600D87771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97CBF2FD1CC9A8B600D87771 /* LaunchScreen.storyboard */; };
+		97CBF30A1CC9A8B600D87771 /* MiniRetoSem5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CBF3091CC9A8B600D87771 /* MiniRetoSem5Tests.swift */; };
+		97CBF3151CC9A8B600D87771 /* MiniRetoSem5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CBF3141CC9A8B600D87771 /* MiniRetoSem5UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97CBF3061CC9A8B600D87771 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97CBF2E61CC9A8B600D87771 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97CBF2ED1CC9A8B600D87771;
+			remoteInfo = MiniRetoSem5;
+		};
+		97CBF3111CC9A8B600D87771 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97CBF2E61CC9A8B600D87771 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97CBF2ED1CC9A8B600D87771;
+			remoteInfo = MiniRetoSem5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97CBF2EE1CC9A8B600D87771 /* MiniRetoSem5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniRetoSem5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97CBF2F11CC9A8B600D87771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97CBF2F31CC9A8B600D87771 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97CBF2F61CC9A8B600D87771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97CBF2F91CC9A8B600D87771 /* MiniRetoSem5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MiniRetoSem5.xcdatamodel; sourceTree = "<group>"; };
+		97CBF2FB1CC9A8B600D87771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97CBF2FE1CC9A8B600D87771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97CBF3001CC9A8B600D87771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97CBF3051CC9A8B600D87771 /* MiniRetoSem5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniRetoSem5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97CBF3091CC9A8B600D87771 /* MiniRetoSem5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniRetoSem5Tests.swift; sourceTree = "<group>"; };
+		97CBF30B1CC9A8B600D87771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97CBF3101CC9A8B600D87771 /* MiniRetoSem5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniRetoSem5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97CBF3141CC9A8B600D87771 /* MiniRetoSem5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniRetoSem5UITests.swift; sourceTree = "<group>"; };
+		97CBF3161CC9A8B600D87771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97CBF2EB1CC9A8B600D87771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97CBF3021CC9A8B600D87771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97CBF30D1CC9A8B600D87771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97CBF2E51CC9A8B600D87771 = {
+			isa = PBXGroup;
+			children = (
+				97CBF2F01CC9A8B600D87771 /* MiniRetoSem5 */,
+				97CBF3081CC9A8B600D87771 /* MiniRetoSem5Tests */,
+				97CBF3131CC9A8B600D87771 /* MiniRetoSem5UITests */,
+				97CBF2EF1CC9A8B600D87771 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97CBF2EF1CC9A8B600D87771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97CBF2EE1CC9A8B600D87771 /* MiniRetoSem5.app */,
+				97CBF3051CC9A8B600D87771 /* MiniRetoSem5Tests.xctest */,
+				97CBF3101CC9A8B600D87771 /* MiniRetoSem5UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97CBF2F01CC9A8B600D87771 /* MiniRetoSem5 */ = {
+			isa = PBXGroup;
+			children = (
+				97CBF2F11CC9A8B600D87771 /* AppDelegate.swift */,
+				97CBF2F31CC9A8B600D87771 /* ViewController.swift */,
+				97CBF2F51CC9A8B600D87771 /* Main.storyboard */,
+				97CBF2FB1CC9A8B600D87771 /* Assets.xcassets */,
+				97CBF2FD1CC9A8B600D87771 /* LaunchScreen.storyboard */,
+				97CBF3001CC9A8B600D87771 /* Info.plist */,
+				97CBF2F81CC9A8B600D87771 /* MiniRetoSem5.xcdatamodeld */,
+			);
+			path = MiniRetoSem5;
+			sourceTree = "<group>";
+		};
+		97CBF3081CC9A8B600D87771 /* MiniRetoSem5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				97CBF3091CC9A8B600D87771 /* MiniRetoSem5Tests.swift */,
+				97CBF30B1CC9A8B600D87771 /* Info.plist */,
+			);
+			path = MiniRetoSem5Tests;
+			sourceTree = "<group>";
+		};
+		97CBF3131CC9A8B600D87771 /* MiniRetoSem5UITests */ = {
+			isa = PBXGroup;
+			children = (
+				97CBF3141CC9A8B600D87771 /* MiniRetoSem5UITests.swift */,
+				97CBF3161CC9A8B600D87771 /* Info.plist */,
+			);
+			path = MiniRetoSem5UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97CBF2ED1CC9A8B600D87771 /* MiniRetoSem5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97CBF3191CC9A8B600D87771 /* Build configuration list for PBXNativeTarget "MiniRetoSem5" */;
+			buildPhases = (
+				97CBF2EA1CC9A8B600D87771 /* Sources */,
+				97CBF2EB1CC9A8B600D87771 /* Frameworks */,
+				97CBF2EC1CC9A8B600D87771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniRetoSem5;
+			productName = MiniRetoSem5;
+			productReference = 97CBF2EE1CC9A8B600D87771 /* MiniRetoSem5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97CBF3041CC9A8B600D87771 /* MiniRetoSem5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97CBF31C1CC9A8B600D87771 /* Build configuration list for PBXNativeTarget "MiniRetoSem5Tests" */;
+			buildPhases = (
+				97CBF3011CC9A8B600D87771 /* Sources */,
+				97CBF3021CC9A8B600D87771 /* Frameworks */,
+				97CBF3031CC9A8B600D87771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97CBF3071CC9A8B600D87771 /* PBXTargetDependency */,
+			);
+			name = MiniRetoSem5Tests;
+			productName = MiniRetoSem5Tests;
+			productReference = 97CBF3051CC9A8B600D87771 /* MiniRetoSem5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97CBF30F1CC9A8B600D87771 /* MiniRetoSem5UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97CBF31F1CC9A8B600D87771 /* Build configuration list for PBXNativeTarget "MiniRetoSem5UITests" */;
+			buildPhases = (
+				97CBF30C1CC9A8B600D87771 /* Sources */,
+				97CBF30D1CC9A8B600D87771 /* Frameworks */,
+				97CBF30E1CC9A8B600D87771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97CBF3121CC9A8B600D87771 /* PBXTargetDependency */,
+			);
+			name = MiniRetoSem5UITests;
+			productName = MiniRetoSem5UITests;
+			productReference = 97CBF3101CC9A8B600D87771 /* MiniRetoSem5UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97CBF2E61CC9A8B600D87771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AppNovedosas;
+				TargetAttributes = {
+					97CBF2ED1CC9A8B600D87771 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					97CBF3041CC9A8B600D87771 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 97CBF2ED1CC9A8B600D87771;
+					};
+					97CBF30F1CC9A8B600D87771 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 97CBF2ED1CC9A8B600D87771;
+					};
+				};
+			};
+			buildConfigurationList = 97CBF2E91CC9A8B600D87771 /* Build configuration list for PBXProject "MiniRetoSem5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97CBF2E51CC9A8B600D87771;
+			productRefGroup = 97CBF2EF1CC9A8B600D87771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97CBF2ED1CC9A8B600D87771 /* MiniRetoSem5 */,
+				97CBF3041CC9A8B600D87771 /* MiniRetoSem5Tests */,
+				97CBF30F1CC9A8B600D87771 /* MiniRetoSem5UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97CBF2EC1CC9A8B600D87771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CBF2FF1CC9A8B600D87771 /* LaunchScreen.storyboard in Resources */,
+				97CBF2FC1CC9A8B600D87771 /* Assets.xcassets in Resources */,
+				97CBF2F71CC9A8B600D87771 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97CBF3031CC9A8B600D87771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97CBF30E1CC9A8B600D87771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97CBF2EA1CC9A8B600D87771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CBF2F41CC9A8B600D87771 /* ViewController.swift in Sources */,
+				97CBF2F21CC9A8B600D87771 /* AppDelegate.swift in Sources */,
+				97CBF2FA1CC9A8B600D87771 /* MiniRetoSem5.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97CBF3011CC9A8B600D87771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CBF30A1CC9A8B600D87771 /* MiniRetoSem5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97CBF30C1CC9A8B600D87771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CBF3151CC9A8B600D87771 /* MiniRetoSem5UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97CBF3071CC9A8B600D87771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97CBF2ED1CC9A8B600D87771 /* MiniRetoSem5 */;
+			targetProxy = 97CBF3061CC9A8B600D87771 /* PBXContainerItemProxy */;
+		};
+		97CBF3121CC9A8B600D87771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97CBF2ED1CC9A8B600D87771 /* MiniRetoSem5 */;
+			targetProxy = 97CBF3111CC9A8B600D87771 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97CBF2F51CC9A8B600D87771 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97CBF2F61CC9A8B600D87771 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97CBF2FD1CC9A8B600D87771 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97CBF2FE1CC9A8B600D87771 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97CBF3171CC9A8B600D87771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97CBF3181CC9A8B600D87771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97CBF31A1CC9A8B600D87771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniRetoSem5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "REALLY-MATERS-INC.MiniRetoSem5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		97CBF31B1CC9A8B600D87771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniRetoSem5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "REALLY-MATERS-INC.MiniRetoSem5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		97CBF31D1CC9A8B600D87771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiniRetoSem5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "REALLY-MATERS-INC.MiniRetoSem5Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniRetoSem5.app/MiniRetoSem5";
+			};
+			name = Debug;
+		};
+		97CBF31E1CC9A8B600D87771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiniRetoSem5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "REALLY-MATERS-INC.MiniRetoSem5Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniRetoSem5.app/MiniRetoSem5";
+			};
+			name = Release;
+		};
+		97CBF3201CC9A8B600D87771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MiniRetoSem5UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "REALLY-MATERS-INC.MiniRetoSem5UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiniRetoSem5;
+			};
+			name = Debug;
+		};
+		97CBF3211CC9A8B600D87771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MiniRetoSem5UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "REALLY-MATERS-INC.MiniRetoSem5UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiniRetoSem5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97CBF2E91CC9A8B600D87771 /* Build configuration list for PBXProject "MiniRetoSem5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97CBF3171CC9A8B600D87771 /* Debug */,
+				97CBF3181CC9A8B600D87771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97CBF3191CC9A8B600D87771 /* Build configuration list for PBXNativeTarget "MiniRetoSem5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97CBF31A1CC9A8B600D87771 /* Debug */,
+				97CBF31B1CC9A8B600D87771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		97CBF31C1CC9A8B600D87771 /* Build configuration list for PBXNativeTarget "MiniRetoSem5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97CBF31D1CC9A8B600D87771 /* Debug */,
+				97CBF31E1CC9A8B600D87771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		97CBF31F1CC9A8B600D87771 /* Build configuration list for PBXNativeTarget "MiniRetoSem5UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97CBF3201CC9A8B600D87771 /* Debug */,
+				97CBF3211CC9A8B600D87771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		97CBF2F81CC9A8B600D87771 /* MiniRetoSem5.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				97CBF2F91CC9A8B600D87771 /* MiniRetoSem5.xcdatamodel */,
+			);
+			currentVersion = 97CBF2F91CC9A8B600D87771 /* MiniRetoSem5.xcdatamodel */;
+			path = MiniRetoSem5.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 97CBF2E61CC9A8B600D87771 /* Project object */;
+}
